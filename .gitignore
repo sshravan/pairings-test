@@ -1,0 +1,7 @@
+*.DS_Store
+build
+.ccls-cache/
+debug/
+.vscode/*
+.vscode/cquery_cached_index/
+compile_commands.json
