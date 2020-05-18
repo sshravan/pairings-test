@@ -5,6 +5,7 @@
 #include <libff/algebra/curves/bn128/bn128_pp.hpp>
 #include <libff/algebra/curves/mnt/mnt4/mnt4_pp.hpp>
 #include <libff/algebra/curves/mnt/mnt6/mnt6_pp.hpp>
+#include <libfqfft/evaluation_domain/get_evaluation_domain.hpp>
 
 #include "depends/ate-pairing/include/bn.h"
 #include "test_point.hpp"
@@ -19,6 +20,7 @@
 
 using namespace libsnark;
 using namespace libff;
+using namespace libfqfft;
 using namespace std;
 using namespace bn;
 
